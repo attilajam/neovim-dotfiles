@@ -9,3 +9,6 @@ end)
 vim.keymap.set("n", "<leader>mi", ":MoltenInit<CR>")
 vim.keymap.set("v", "<leader>mv", ":<C-u>MoltenEvaluateVisual<CR>")
 vim.keymap.set("n", "<leader>mr", ":MoltenReevaluateCell<CR>")
+
+vim.keymap.set("n", "<down>", "gj")
+vim.keymap.set("n", "<up>", "gk")

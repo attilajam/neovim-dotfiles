@@ -36,7 +36,6 @@ return {
 			-- example_server = {
 			--   -- server specific options
 			-- },
-			lua_language_server = {},
 		},
 		-- You can add global LSP settings here,
 		-- for example, if you want to configure specific capabilities for all servers.
