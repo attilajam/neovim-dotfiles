@@ -7,5 +7,5 @@ vim.keymap.set("n", "<leader>th", function()
 end)
 
 vim.keymap.set("n", "<leader>mi", ":MoltenInit<CR>")
-vim.keymap.set("v", "<leader>mv", "<C-u>:MoltenEvaluateVisual<CR>")
+vim.keymap.set("v", "<leader>mv", ":<C-u>MoltenEvaluateVisual<CR>")
 vim.keymap.set("n", "<leader>mr", ":MoltenReevaluateCell<CR>")
