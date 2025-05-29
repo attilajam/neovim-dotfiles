@@ -12,3 +12,6 @@ vim.keymap.set("n", "<leader>mr", ":MoltenReevaluateCell<CR>")
 
 vim.keymap.set("n", "<down>", "gj")
 vim.keymap.set("n", "<up>", "gk")
+
+vim.keymap.set("n", "<C-s>", ":w<CR>")
+vim.keymap.set("i", "<C-s>", ":w<CR>")
