@@ -47,3 +47,4 @@ vim.opt.wrap = true
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.fillchars:append({ eob = " " })
+vim.opt.shiftwidth = 4
