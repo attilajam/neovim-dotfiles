@@ -9,7 +9,8 @@ end)
 vim.keymap.set("n", "<leader>mi", ":MoltenInit<CR>")
 vim.keymap.set("v", "<leader>mv", ":<C-u>MoltenEvaluateVisual<CR>")
 vim.keymap.set("n", "<leader>mr", ":MoltenReevaluateCell<CR>")
-
+vim.keymap.set("n", "<leader>ms", ":noautocmd MoltenEnterOutput<CR>",
+    { silent = true, desc = "show/enter output" })
 vim.keymap.set("n", "<down>", "gj")
 vim.keymap.set("n", "<up>", "gk")
 
@@ -21,3 +22,8 @@ vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find f
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live grep' })
 vim.keymap.set('n', '<leader>fb', builtin.buffers, { desc = 'Telescope buffers' })
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = 'Telescope help tags' })
+
+vim.api.nvim_set_keymap('n', '<S-Up>', '<Up>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<S-Down>', '<Down>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<S-Left>', '<Left>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<S-Right>', '<Right>', { noremap = true })
