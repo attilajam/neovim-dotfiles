@@ -96,7 +96,7 @@ return {
 			},
 			experimental = {
 				ghost_text = {
-					hl_group = "CmpGhostText",
+					hl_group = false,
 				},
 			},
 			sorting = defaults.sorting,
